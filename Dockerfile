@@ -13,3 +13,5 @@ RUN apt-get install -y yarn
 RUN apt-get install -y python-dev python-pip
 
 RUN pip install awscli
+RUN sudo apt install npm
+RUN npm install --global expo-cli
